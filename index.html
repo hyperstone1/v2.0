@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="./css/animate.css"/>
+    <link rel="shortcut icon" href="./img/car_ico.ico" type="image/x-icon">
+    <script src="./js/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="./css/sweetalert2.css">
+
+    <title>АвтоВыкуп</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main__content_wrapper">
+            <div class="main__content_black">
+            </div>
+            
+                <header class="header">
+                    <div class="img_header"></div>
+                    <div class="header__logo">
+                        <span class="header__logo_title " >
+                            АВТО<span>ВЫКУП</span> 
+                        </span>
+                        <span class="header__logo_description">
+                            Срочный выкуп авто
+                        </span>
+                    </div>
+                    <div class="container header__container">
+                        <div class="menu-burger__header">
+                            <span></span>
+                        </div>
+                        <nav class="header__menu">
+                            <ul class="header__menu_ul">
+                                <li class="header__menu_ul_link"><a href="#about_us" >О нас</a></li>
+                                <li class="header__menu_ul_link"><a href="#redemption_process">Процесс выкупа</a></li>
+                                <li class="header__menu_ul_link"><a href="#reviews">Отзывы</a></li>
+                                <li class="header__menu_ul_link"><a href="#faq">Вопросы</a></li>
+                            </ul>
+                        </nav>
+                </div>
+                    <div class="header__number">
+                        <div class="header__number_text">
+                            ПОЗВОНИТЕ НАМ СЕЙЧАС
+                        </div>
+                        <div class="header__number_phone copy-tel">
+                            <a href="tel:+792211105008">+7 922 111-05-00</a>
+                            
+                        </div>
+                    </div>
+                </header>
+                    <div class="start_page">
+                        <!-- <div class="main__content_black">
+                        </div> -->
+                        <div class="start_page_title wow fadeInLeft">
+                            Срочный выкуп авто 
+                            <span> в России</span> 
+                        </div>
+                        <div class="start_page_explanation wow fadeInLeft">
+                            В ЛЮБОМ СОСТОЯНИИ
+                        </div>
+                        <div class="start_page_description__options wow fadeInLeftBig">
+                            <ul>
+                                <li>Оформление документов и расчет в течении часа</li>
+                                <li>Работаем с авто от 2000 до 2022 года выпуска</li>
+                                <li>Максимально возможная цена на автомобильном рынке России</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="start_page_discription wow fadeInUp">
+                            Получите максимальную сумму за свое авто уже сегодня
+                        </div>
+
+                </div>
+
+
+                <!-- <div class="popup__bg"> 
+                    <form class="popup">
+                        <img src="images/close.svg" class="close-popup">
+                        <label>
+                            <input type="text" name="name">
+                            <div class="label__text">
+                                Ваше имя
+                            </div>
+                        </label>
+                        <label>
+                            <input type="tel" name="tel">
+                            <div class="label__text">
+                                Ваш телефон
+                            </div>
+                        </label>
+                        <label>
+                            <textarea name="message"></textarea>
+                            <div class="label__text">
+                                Ваше сообщение
+                            </div>
+                        </label>
+                        <button type="submit">Отправить</button>
+                    </form>
+                </div>   -->
+
+                <div class="button_form wow fadeIn">
+                    <a href="#form_price">
+                    <div class="btn open-popup">Оставить заявку</div>
+                </a>
+                </div>  
+                <div class="dws">
+                    <div class="pulse">
+                      <div class="bloc"> <a href="tel: 88005553535"></a></div>
+                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                      <div class="text">Кнопка связи</div>
+                    </div>
+                  </div>
+        </div>
+        <div class="form_and_docs wow fadeInRight" data-wow-offset="200">
+            <div id="form_price" class="form_price" >
+                <form action="#" id="form" class="form__body">
+                    <!-- <div class="about_text">
+                        <p class="about_price">Оставить заявку</p>
+                    </div> -->
+                    <div class="form-inner">
+                    <div class="input__top">
+                        <div class="input__top_1">
+                            <p>Ваше имя*</p>
+                            <input name="name" class="form__input _req" type="text"  placeholder="Иванов Иван Иванович">
+                        </div>
+                        <div class="input__top_2">
+                            <p>Ваш телефон*</p>
+                            <input id="phone" name="tel" class="form__input _req _tel" type="tel" placeholder="+7 (922) 111-05-00">
+                        </div>
+                    </div>
+                    <div class="input__bottom">
+                        <div class="input__bottom_1">
+                            <p>Марка*</p>
+                            
+                            <input name="mark" class="form__input _req" type="text "placeholder="BMW">
+                        </div>
+                        <div class="input__bottom_2">
+                            <p>Модель*</p>
+                            <input name="model" class="form__input _req" type="text"  placeholder="e31">
+                        </div>
+                        <div class="input__bottom_3">
+                            <p>Год*</p>
+                            <input name="year" class="form__input _req" type="number" placeholder="1991">
+                        </div>
+                    </div>
+                    <div class="file__textarea">
+                        <div class="textarea">
+                            <p class="textarea_description">
+                                Описание
+                            </p>
+                            <textarea name="description" id="" cols="40" rows="5" placeholder="Введите краткое описание машины"></textarea>
+                            
+                        </div>
+                        <div class="average_price">
+                            <p class="price">
+                                Ожидаемая цена
+                            </p>
+                            <div class="input_price">
+                                <input class="form__input" name="price" type="number" class="avg_price">
+                                <style>
+                                    .form__input { 
+                                    -moz-appearance: textfield;
+                                    }
+                                    .form__input::-webkit-inner-spin-button { 
+                                    display: none;
+                                    }
+                                    </style>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="file_buttons">
+                        <div class="file">
+                            <div class="file__item">
+                                <div class="file__button">Прикрепить фото</div>
+                                <input class="file__input" id="formImage" type="file" name="photo" multiple="multiple" accept=".jpg, .png, .gif, .mp3, .mp4" >
+                            </div>
+                            <div id="formPreview" class="file__preview"></div>
+                        </div>
+    
+                        <div class="file">
+                            <div class="file__item">
+                                <div class="file__button">Прикрепить видео</div>
+                                <input class="file__input" id="formVideo" type="file" name="photo" multiple="multiple" accept=".jpg, .png, .gif, .mp3, .mp4" >
+                            </div>
+                            <div id="videoPreview" class="file__preview"></div>
+                        </div>
+                    </div>
+
+                    <div class="input__submit">
+                        <button class="form__button" type="submit" >Узнайте стоимость прямо сейчас</button>
+                    </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="docs">
+                <div class="docs_title">
+                    Что необходимо для купли-продажи?
+                </div>
+                <div class="docs_description">
+                    При отсутствии каких-либо документов перечисленных в списке,
+                     свяжитесь с нами, для уточнения возможности сделки.
+                </div>
+                <div class="docs_ul">
+                    <li>Удостоверение личности (паспорт)</li>
+                    <li>Технический паспорт транспортного средства</li>
+                    <li>Документы о сервисном обслуживании (если есть)</li>
+                    <li>Генеральная доверенность (если вы не собственник)</li>
+                    <li>Комплект ключей</li>
+                </div>
+            </div>
+        </div>
+        <div id="about_us" class="about_us ">
+            <div class="about_us__text wow bounceInUp" >
+                Почему именно мы?
+            </div>
+            <div class="about_us__grid">
+                <div class="about_us__grid__card about_us__grid__card_1">
+                    <div class="about_us__grid__card_img about_us__grid__card_img_1">
+    
+                    </div>
+                    <div class="about_us__grid__card_title">
+                        Выгодная цена
+                    </div>
+                    <div class="about_us__grid__card_description">
+                        Наше предложение будет
+                        самым адекватным на
+                        рынке России
+                    </div>
+                </div>
+                <div class="about_us__grid__card about_us__grid__card_2">
+                    <div class="about_us__grid__card_img about_us__grid__card_img_2">
+    
+                    </div>
+                    <div class="about_us__grid__card_title">
+                        Деньги за 1 час
+                    </div>
+                    <div class="about_us__grid__card_description">
+                        Вы получаете всю сумму
+                        максимально быстро и 
+                       выгодно для Вас
+                    </div>
+                </div>
+                <div class="about_us__grid__card about_us__grid__card_3">
+                    <div class="about_us__grid__card_img about_us__grid__card_img_3">
+                    </div>
+                    <div class="about_us__grid__card_title">
+                        Документы и
+                        оформление
+                    </div>
+                    <div class="about_us__grid__card_description">
+                        Все оформление мы 
+                        берем на себя и 
+                        Вы не платите ни
+                        копейки
+                    </div>
+                </div>
+                <div class="about_us__grid__card about_us__grid__card_4">
+                    <div class="about_us__grid__card_img about_us__grid__card_img_4">
+    
+                    </div>
+                    <div class="about_us__grid__card_title">
+                        Любое состояние
+                    </div>
+                    <div class="about_us__grid__card_description">
+                        Нам интересен Ваш
+                        автомобиль в ЛЮБОМ 
+                       состоянии, даже если он не 
+                       на ходу, наш эвакуатор 
+                       его заберет
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about_us__specifically wow slideInRight">
+            <div class="about_us__specifically_black">
+                
+            </div>
+            <div class="about_us__specifically_car">
+
+            </div>
+            <div class="about_us__specifically_text">
+                <div class="about_us__specifically_text_description">
+                    У нас <b>нет комиссий</b> и прочих взносов за консультацию и осмотр Вашего авто. 
+                    Выкуп транспортного средства нашей компанией занимает <b>не более</b> 30 минут. Это
+                    очень простая и прозрачная процедура. Мы <b>не занижаем</b> стоимости и дорожим 
+                    своей репутацией, чтобы Вы могли рекомендовать нас своим друзьям и
+                    знакомым. Мы приедем к Вам с профессиональным оценщиком 
+                    и решим все вопросы прямо у автомобиля - звоните +7 (922) 111-05-00
+                </div>
+
+            </div>
+        </div>
+
+        <div class="about_us__cars">
+            <div class="back_about"></div>
+            <div class="about_us__cars_title">
+                Какие автомобили мы выкупаем?
+            </div>
+            <div class="about_us__cars__grid wow flipInX" data-wow-offset="200">
+                <div class="about_us__cars__grid__card about_us__grid__card_1 js-open-modal" data-modal="1">
+                    <div class="about_us__cars__grid__card_img about_us__grid__card_img_1">
+    
+                    </div>
+                    <div class="about_us__cars__grid__card_title">
+                        Авто в хорошем состоянии
+                    </div>
+                    <div class="about_us__cars__grid__card_description">
+                        Машины, которые внешне и
+                        внутренне в нормальном
+                        состоянии и на ходу.
+                    </div>
+                </div>
+                <div class="about_us__cars__grid__card about_us__grid__card_2 js-open-modal" data-modal="2">
+                    <div class="about_us__cars__grid__card_img about_us__grid__card_img_2">
+    
+                    </div>
+                    <div class="about_us__cars__grid__card_title">
+                        Поддержанные автомобили
+                            <!-- и без документов -->
+                    </div>
+                    <div class="about_us__cars__grid__card_description">
+                        Выкупаем подержанные автомобили
+                        в любом состоянии.
+                        <!-- Покупаем отечественные авто и иномарки. 
+                        С любым пробегом. -->
+                    </div>
+                </div>
+                <div class="about_us__cars__grid__card about_us__grid__card_3 js-open-modal" data-modal="3">
+                    <div class="about_us__cars__grid__card_img about_us__grid__card_img_3">
+    
+                    </div>
+                    <div class="about_us__cars__grid__card_title">
+                        Битые машины
+                    </div>
+                    <div class="about_us__cars__grid__card_description">
+                        С любой деформацией кузова. 
+                        Прибытие оценщика в течение 
+                        30 минут. 
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" data-modal="1">
+            <!--   Svg иконка для закрытия окна  -->
+            <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
+                   <div class="modal_block">
+                    <div class="about_us__cars__grid__card about_us__grid__card_1">
+                        <div class="about_us__cars__grid__card_img about_us__grid__card_img_1">
+        
+                        </div>
+                        <div class="about_us__cars__grid__card_title">
+                            Авто в хорошем состоянии
+                        </div>
+                        <div class="about_us__cars__grid__card_description">
+                            <p>
+                                Машины, которые внешне и
+                                внутренне в нормальном
+                                состоянии и на ходу.
+                            </p> 
+                            <p>
+                                При личном осмотре автомобиля оценщик обратит внимание на его внешний вид и общее техническое состояние. 
+                                По результатам объективной оценки он назовет итоговую цену выкупа, которую рассчитает, исходя из совокупности полученной информации. 
+                                Таким образом, окончательная стоимость выкупа легковых машин нередко варьируется в ту или иную сторону, но всегда остается объективной и честной.
+                            </p>
+
+                        </div>
+                    </div>
+                   </div>
+         </div>
+         <div class="modal" data-modal="2">
+            <!--   Svg иконка для закрытия окна  -->
+            <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
+                   <div class="modal_block">
+                    <div class="about_us__cars__grid__card about_us__grid__card_2">
+                        <div class="about_us__cars__grid__card_img about_us__grid__card_img_2">
+        
+                        </div>
+                        <div class="about_us__cars__grid__card_title">
+                            Поддержанные автомобили
+                        </div>
+                        <div class="about_us__cars__grid__card_description">
+                            <p> Возраст автомобиля обратно пропорционально влияет на рыночный спрос. 
+                                Чем старше машина, тем сложнее ее выгодно продать. Покупатели не дают желаемую стоимость, неохотно покупают такой транспорт. 
+                                Компания Автовыкуп проводит выкуп старых автомобилей. Мы покупаем машины до 2000 года выпуска. 
+                                Ваше двадцатилетнее авто мы оценим честно, выплатим до 90% от рыночной цены.</p>
+                            
+
+                            <p>Компания выкупает авто быстро, деньги выплачиваются в день продажи.</p> 
+                            
+                            <p><b>Стоит знать!</b> <u>Скупка старых машин проводится легально, честно и открыто. Мы платим налоги и являемся юридическим лицом.</u> </p>  
+                            
+                            <p>Деньги отправляются клиенту любым удобным способом (безналичным переводом, зачислением на карту, выплачиваются наличными при встрече).</p> 
+                        </div>
+                    </div>
+                   </div>
+         </div>
+         <div class="modal" data-modal="3">
+            <!--   Svg иконка для закрытия окна  -->
+            <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
+                   <div class="modal_block">
+                    <div class="about_us__cars__grid__card about_us__grid__card_3">
+                        <div class="about_us__cars__grid__card_img about_us__grid__card_img_3">
+        
+                        </div>
+                        <div class="about_us__cars__grid__card_title">
+                            Битые авто
+                        </div>
+                        <div class="about_us__cars__grid__card_description">
+                            <p><b>Хотите продать битый автомобиль?</b>
+                                Наша компания предлагает услуги по выкупу любых битых автомобилей с любыми повреждениями. 
+                                Мы покупаем автомобили после любого ДТП, даже если автомобиль не подлежит восстановлению. 
+                            </p>
+                            <p>
+                                Нам не важно какое состояние у автомобиля и какова тяжесть повреждений. 
+                                Наши специалисты быстро оценят все повреждения и при Вашем согласии мы осуществим сделку с выездом к Вам домой.
+                                Мы предлагаем отличные условия сотрудничества и большой выбор условий при продаже Вашего автомобиля. 
+                                Вы получите наличные деньги сразу, на руки. 
+                                Все автомобили покупаемые нашей компанией снимаются с учета и уже потом начинают восстанавливаться или разбираться на запчасти. 
+                                <!-- Хотите выгодно и честно продать битую машину? Обращайтесь в «Автовыкуп». -->
+                            </p>
+                            
+                        </div>
+                    </div>
+                   </div>
+         </div>
+
+         <div class="overlay js-overlay-modal"></div>
+        <div id="redemption_process" class="redemption_process wow fadeInDown" data-wow-offset="200">
+            <div class="redemption_process_title">
+                Процесс выкупа авто
+            </div>
+            <div class="redemption_process__grid">
+                <div class="redemption_process__grid__card redemption_process__grid__card_1">
+                    <div class="redemption_process__grid__card_img redemption_process__grid__card_img_1">
+    
+                    </div>
+                    <div class="redemption_process__grid__card_title">
+                        Обращение
+                    </div>
+                    <div class="redemption_process__grid__card_description">
+                        Вы оставляете заявку на
+                        сайте или звоните нам: 
+                        375(23)344-22-66
+                    </div>
+                </div>
+                <div class="redemption_process__grid__card redemption_process__grid__card_2">
+                    <div class="redemption_process__grid__card_img redemption_process__grid__card_img_2">
+    
+                    </div>
+                    <div class="redemption_process__grid__card_title">
+                        Встреча
+                    </div>
+                    <div class="redemption_process__grid__card_description">
+                        Договариваемся о удобном 
+                        времени для подробного 
+                        осмотра
+                    </div>
+                </div>
+                <div class="redemption_process__grid__card redemption_process__grid__card_3">
+                    <div class="redemption_process__grid__card_img redemption_process__grid__card_img_3">
+    
+                    </div>
+                    <div class="redemption_process__grid__card_title">
+                        Оценка
+                    </div>
+                    <div class="redemption_process__grid__card_description">
+                        Мы предварительно 
+                        оцениваем стоимость 
+                        Вашего авто
+                    </div>
+                </div>
+                <div class="redemption_process__grid__card redemption_process__grid__card_4">
+                    <div class="redemption_process__grid__card_img redemption_process__grid__card_img_4">
+    
+                    </div>
+                    <div class="redemption_process__grid__card_title redemption_process__grid__card_title_4">
+                        Продажа
+                    </div>
+                    <div class="redemption_process__grid__card_description">
+                        Вы получаете деньги 
+                        наличными на месте
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="last__buying_cars">
+            <p class="last__buying_cars_title">Последние <b> ВЫКУПЛЕННЫЕ АВТО</b>:</p>
+            <div class="slider">
+                <div class="slider__item">
+                    <div class="slider__item_card">
+                        <img src="./img/buying_car_1.jpg" alt="">
+                        <p class="last__buying_cars_grid_card_title">
+                            BMW e34, 2000 г.
+                        </p>
+                        <p class="last__buying_cars_grid_card_description">
+                            Цена: 4000$
+                        </p>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="./img/buying_car_2.jpg" alt="">
+                    <p class="last__buying_cars_grid_card_title">
+                        Audi a3, 2019 г.
+                    </p>
+                    <p class="last__buying_cars_grid_card_description">
+                        Цена: 23000$
+                    </p>
+                </div>
+                <div class="slider__item">
+                    <img src="./img/buying_car_3.jpg" alt="">
+                    <p class="last__buying_cars_grid_card_title">
+                        Audi a4, 2004 г.
+                    </p>
+                    <p class="last__buying_cars_grid_card_description">
+                        Цена: 6600$
+                    </p>
+                </div>
+                <div class="slider__item">
+                    <img src="./img/buying_car_1.jpg" alt="">
+                    <p class="last__buying_cars_grid_card_title">
+                        BMW e34, 2000 г.
+                    </p>
+                    <p class="last__buying_cars_grid_card_description">
+                        Цена: 4000$ 
+                    </p>
+                </div>
+                <div class="slider__item">
+                    <img src="./img/buying_car_2.jpg" alt="">
+                    <p class="last__buying_cars_grid_card_title">
+                        Audi a3, 2019 г.
+                    </p>
+                    <p class="last__buying_cars_grid_card_description">
+                        Цена: 23000$
+                    </p>
+                </div>
+            </div>
+        </div>
+
+       
+        <div id="reviews" class="reviews_slider wow fadeIn" data-wow-offset="200">
+            <div class="reviews_title">
+                Отзывы клиентов
+            </div>
+            <div   class="reviews">
+
+
+                <div class="slider__item1">
+                    <div class="reviews__block_img reviews__block_img_1">
+    
+                    </div>
+                    <div class="reviews__block_name reviews__block_name_1">
+                        Никита Петров
+                    </div>
+                    <div class="reviews__block_text reviews__block_text_1">
+                        <span>Это была 3-я компания, в которую я позвонил. 
+                            По телефону цену назвали выше, чем в других компаниях. 
+                            Оценщик приехал уже через 30 минут ко мне в офис. 
+                            Осмотрел машину, проверил документы, 
+                            подробно разъяснил новые правила оформления договора купли-продажи. 
+                            Сразу видно профессионалов!
+                        </span>
+                    </div>
+                </div>
+                <div class="slider__item1">
+                    <div class="reviews__block_img reviews__block_img_2">
+    
+                    </div>
+                    <div class="reviews__block_name reviews__block_name_2">
+                        Марина Семашко 
+                    </div>
+                    <div class="reviews__block_text reviews__block_text_2">
+                        <span>Быстро продала через компанию Автовыкуп осуществляющую автовыкуп в России, свою Toyota Camry 2009 года, оценили достойно, все быстро. Достойная компания предоставляющая качественные услуги. 
+                        </span>
+                    </div>
+                </div>
+                <div class="slider__item1">
+                    <div class="reviews__block_img reviews__block_img_3">
+    
+                    </div>
+                    <div class="reviews__block_name reviews__block_name_3">
+                        Андрей Зинченко
+                    </div>
+                    <div class="reviews__block_text reviews__block_text_3">
+                        <span>Продал в компании Автовыкуп машину, до этого с продажей не сталкивался. Дал объявление на av.by и параллельно решил обзвонить скупщиков машин. У многих цены были ниже чем средняя, но тут и цену предложили больше и в общении были вежливы, и все объяснили по шагам, как происходит выкуп. В итоге в этот же день получил всю сумму наличными.
+                        </span>
+                    </div>
+                </div>
+                <div class="slider__item1">
+                    <div class="reviews__block_img reviews__block_img_4">
+    
+                    </div>
+                    <div class="reviews__block_name reviews__block_name_4">
+                        Александр Куц
+                    </div>
+                    <div class="reviews__block_text reviews__block_text_4">
+                        <span>Очень доволен как прошла сделка. Оставлял много заявок на разных сайтах, но сразу понравилось отношение. Перезвонили через пару минут и договорились встретиться у машины. Через 2 часа уже провели осмотр машины на месте. Цена вполне устроила. Сняли вместе с учета, хотел сам убедиться, что бы потом проблем не возникло.
+                        </span>
+                    </div>
+                </div>
+                <div class="slider__item1">
+                    <div class="reviews__block_img reviews__block_img_5">
+    
+                    </div>
+                    <div class="reviews__block_name reviews__block_name_5">
+                        Игорь Овласевич
+                    </div>
+                    <div class="reviews__block_text reviews__block_text_5">
+                        <span>Предложил на сайте им свою машину. конечно не за два часа выкупили, как обещали, но в течение дня ко мне приехал оценщик и забрал машину. Обмана с ценой не было, как обещали после связи со мной заплатить, так и заплатили то есть у машины со мной никто не торговался. это очень понравилось.
+                        </span>
+                    </div>
+                </div>
+        </div>            
+    </div>
+    <section id="faq" class="faq wow fadeIn" data-wow-offset="100">
+        <div class="wrapper">
+            <div class="faq_title">
+                Часто задаваемые вопросы
+            </div>
+            <div class="faq_content">
+                <a href="#" class="togglefaq togglefaq_1"><i class="icon-plus"></i> Автовыкуп это надежно?</a>
+                <div class="faqanswer faqanswer_1">
+                    <p class="">Выкуп подержанных автомобилей отличается от большинства сделок. Процедура опирается на официальный договор, 
+                        который четко регулирует этапы сделки. Документ оформляется согласно нормам законодательства, 
+                        что защищает клиента от обмана. Мы дорожим репутацией, поэтому гарантирует безопасность сделки.</p>
+                </div>
+                <a href="#" class="togglefaq togglefaq_2"><i class="icon-plus"></i> Какие документы необходимы?</a>
+                <div class="faqanswer faqanswer_2">
+                    <ul>
+                        <p>технический паспорт автомобиля (ТП);</p>
+                        <p>генеральную доверенность (если Вы не являетесь собственником автомобиля);</p>
+                        <p>личный паспорт;</p>
+                        <p>сервисная книжка или другие документы о тех. состоянии автомобиля (желательно).</p>
+                    </ul>
+                </div>
+                <a href="#" class="togglefaq togglefaq_3"><i class="icon-plus"></i> Покупаете ли вы автомобили, зарегистрированные в других регионах?</a>
+                <div class="faqanswer faqanswer_3">
+                    <p class="">Мы можем купить у Вас машину вне зависимости от того, в каком регионе России она состоит на регистрационном учёте.</p>
+                </div>
+         
+
+            <a href="#" class="togglefaq togglefaq_4"><i class="icon-plus"></i> Существуют ли ограничения по возрасту и марке автомобилей? </a>
+            <div class="faqanswer faqanswer_4">
+                <p class="">Мы покупаем все марки начиная с 2000 года.</p>
+            </div>    
+         
+            <a href="#" class="togglefaq togglefaq_5"><i class="icon-plus"></i> Покупаете ли вы битые автомобили?</a>
+            <div class="faqanswer faqanswer_5">
+                <p class="">Вы можете, как снимать его с учета, так и не снимать. В последнем случае, мы сделаем это самостоятельно.</p>
+            </div>
+            <a href="#" class="togglefaq togglefaq_6"><i class="icon-plus"></i> Когда я смогу получить деньги при продаже автомобиля?</a>
+            <div class="faqanswer faqanswer_6">
+                <p class="">Вы можете сразу же получить деньги после оформления документов.</p>
+            </div>
+            <a href="#" class="togglefaq togglefaq_7"><i class="icon-plus"></i> Покупаете ли Вы автомобили по доверенности?</a>
+            <div class="faqanswer faqanswer_7">
+                <p class="">Вы можете продать автомобиль, как по доверенности, так и заключить с нами договор купли-продажи.</p>
+            </div>
+
+                <!-- <ul class="questions">
+                    <li class="question_1 question">Процедура выкупа автомобиля</li>
+                    <li class="question_2 question">Какие документы необходимы</li>
+                    <li class="question_3 question">Цена по телефону отличается от фактической</li>
+                    <li class="question_4 question">Сколько по времени занимает вся процедура выкупа</li>
+                </ul> -->
+            </div>
+        </div>
+    </section>
+        <div class="contact_us wow fadeInLeft" data-wow-offset="20">
+            <div class="contact_us__back">
+                <div class="contact_us__text">
+                    <div class="contact_us__text_qustions"><b>ПОЯВИЛИСЬ ВОПРОСЫ?</b> ЗВОНИТЕ НЕ ОТКЛАДЫВАЯ</div> 
+                    <p class="contact_us__text_tel">+7 (922) 111-05-00</p> 
+                    <div class="contact_us__text_viber">Либо отправьте фото в <div class="img"><a class="viber_contact" href="viber://chat?number=%2B375336633538"></a></div>Viber</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__flex">
+            <div class="footer__flex_left">
+                <p>© 2002 – 2022 </p> 
+                <a href="/">Компания «АвтоВыкуп» </a>
+                <p>Автовыкуп машин с выездом по всей России</p> 
+            </div>
+            <div class="footer__flex_right">
+                <ul class="footer__contacts">
+                    <li class="li_contacts">Контакты:</li>
+                    <li>+7 922 111-05-00</li>
+                    <li>mail@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <a class="back_to_top" title="Наверх" ></a>
+    <script src="./js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/menu_query.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="./js/copytel.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/js_button.js"></script>
+    <script src="./js/menu.js"></script> 
+    <script src="https://unpkg.com/imask"></script>
+    <script src="./js/faq.js"></script>
+
+</body>
+</html>
