@@ -1,0 +1,156 @@
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border: 2px solid #000;
+}
+
+.slider {
+  margin-top: 60px;
+  position: relative;
+  padding: 20px 120px;
+  /* background: #706c6c; */
+  background-color: #d0cfcd;
+  cursor: pointer;
+}
+.slider .slick-arrow {
+  position: absolute;
+  top: 30%;
+  z-index: 10;
+  font-size: 0;
+  width: 82px;
+  height: 182px;
+}
+.slider .slick-prev {
+  left: 0;
+  background: url(../img/arr-left.svg) 0 0/100% no-repeat;
+  border: none;
+  cursor: pointer;
+}
+.slider .slick-next {
+  right: 0;
+  border: none;
+  background: url(../img/arr-right.svg) 0 0/100% no-repeat;
+  cursor: pointer;
+}
+.slider .slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.slider .slick-dots li {
+  list-style: none;
+  margin: 20px 10px;
+}
+.slider .slick-dots .slick-active button {
+  background: transparent;
+  border: 1px solid #fff;
+}
+.slider .slick-dots button {
+  font-size: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.reviews {
+  position: relative;
+}
+.reviews .slick-track {
+  border: none;
+}
+.reviews .slick-arrow {
+  position: absolute;
+  top: 30%;
+  z-index: 10;
+  font-size: 0;
+  width: 82px;
+  height: 182px;
+}
+.reviews .slick-prev {
+  left: 0;
+  background: url(../img/arr-left.svg) 0 0/100% no-repeat;
+  border: none;
+  cursor: pointer;
+}
+.reviews .slick-next {
+  right: 0;
+  border: none;
+  background: url(../img/arr-right.svg) 0 0/100% no-repeat;
+  cursor: pointer;
+}
+.reviews .slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -30px;
+}
+.reviews .slick-dots li {
+  list-style: none;
+  margin: 20px 10px;
+}
+.reviews .slick-dots .slick-active button {
+  background: transparent;
+  border: 1px solid #fff;
+}
+.reviews .slick-dots button {
+  font-size: 0;
+  width: 27px;
+  height: 24px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.slider__item {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  opacity: 0.4;
+  text-align: center;
+  margin-right: 20px;
+  border: 3px solid #000;
+  background-color: #ece8f2;
+}
+.slider__item p {
+  /* color: #fff; */
+  color: #242424;
+}
+.slider__item .last__buying_cars_grid_card_title {
+  font-size: 24px;
+  padding: 5px 0px;
+}
+.slider__item .last__buying_cars_grid_card_description {
+  font-size: 22px;
+  font-weight: 700;
+}
+.slider__item img{
+  border-bottom: 3px solid #000;
+}
+/* .slider__item:hover{
+  overflow: visible;
+  transition: 1s;
+  transform: scale(1.1);
+} */
+
+.slick-center {
+  opacity: 1;
+}
